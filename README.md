@@ -53,7 +53,7 @@ principle:   every project ships with measured results — and its limits
 |---|---|---|---|
 | **[StateVerdict](https://github.com/sriharichepuri21/stateverdict)**<br>[▶ live demo](https://sriharichepuri21.github.io/stateverdict/) | Makes Kafka messages arrive twice, late or out of turn **on purpose**, then checks the databases, not the status codes | 🐞 Found a **money-creation bug** in an open-source Kafka app<br>✅ **0 false alarms** in 510 valid scenarios<br>🎯 **6/6** planted bugs caught<br>⚡ **~35 ns** overhead per message | Java 21, Spring Boot, Kafka, PostgreSQL, Testcontainers |
 | **[Kairo](https://github.com/sriharichepuri21/kairo-marketplace-intelligence)** | A marketplace plus the data platform behind it: dbt bronze/silver/gold models, churn ML, data-quality monitoring | 📦 **16M+** generated records<br>🧪 dbt **153 passing, 0 errors**<br>💰 **$0** reconciliation variance | Next.js, FastAPI, PostgreSQL, dbt, DuckDB, scikit-learn, Streamlit |
-| **[ReceiptWise](https://github.com/sriharichepuri21/receiptwise)**<br>[▶ try it](https://receiptwise-eight.vercel.app) | Photograph a receipt, an LLM extracts it, then chat with your spending in plain language | 🚀 **Deployed** on Render + Vercel<br>🧪 **290** backend tests<br>🔒 Typed tool-calling, no LLM-written SQL | Python, FastAPI, Gemini, PostgreSQL, Next.js |
+| **[Cotab](https://github.com/sriharichepuri21/receiptwise)**<br>[▶ try it](https://receiptwise-eight.vercel.app) | Scan a receipt and every line item is recorded; split bills item by item with the fewest payments to settle up; ask questions about your own purchases | 🚀 **Deployed** on Render + Vercel<br>🧪 **290** backend tests<br>🔒 Typed tool-calling, no LLM-written SQL | Python, FastAPI, Gemini, PostgreSQL, Next.js |
 
 ---
 
