@@ -49,11 +49,15 @@ principle:   every project ships with measured results — and its limits
   </picture>
 </a>
 
+<a href="https://cotab.center">
+  <img alt="Cotab: Receipts, read for you, with Tabby the AI agent on a printed receipt" src="assets/cotab-hero.jpg" width="100%">
+</a>
+
 | Project | What it does | Proof | Built with |
 |---|---|---|---|
 | **[StateVerdict](https://github.com/sriharichepuri21/stateverdict)**<br>[▶ live demo](https://sriharichepuri21.github.io/stateverdict/) | Makes Kafka messages arrive twice, late or out of turn **on purpose**, then checks the databases, not the status codes | 🐞 Found a **money-creation bug** in an open-source Kafka app<br>✅ **0 false alarms** in 510 valid scenarios<br>🎯 **6/6** planted bugs caught<br>⚡ **~35 ns** overhead per message | Java 21, Spring Boot, Kafka, PostgreSQL, Testcontainers |
 | **[Kairo](https://github.com/sriharichepuri21/kairo-marketplace-intelligence)** | A marketplace plus the data platform behind it: dbt bronze/silver/gold models, churn ML, data-quality monitoring | 📦 **16M+** generated records<br>🧪 dbt **153 passing, 0 errors**<br>💰 **$0** reconciliation variance | Next.js, FastAPI, PostgreSQL, dbt, DuckDB, scikit-learn, Streamlit |
-| **[Cotab](https://github.com/sriharichepuri21/receiptwise)**<br>[▶ try it](https://receiptwise-eight.vercel.app) | Scan a receipt and every line item is recorded; split bills item by item with the fewest payments to settle up; ask questions about your own purchases | 🚀 **Deployed** on Render + Vercel<br>🧪 **290** backend tests<br>🔒 Typed tool-calling, no LLM-written SQL | Python, FastAPI, Gemini, PostgreSQL, Next.js |
+| **[Cotab](https://github.com/sriharichepuri21/Cotab)**<br>[▶ try it](https://cotab.center) | An AI-powered money app. **Tabby**, its AI agent, reads every line of a receipt (photo, PDF or forwarded email), keeps item-level budgets and splits bills to the cent with pro-rata tax. Ask in plain words; every change waits for your approval | 🚀 **Live** at cotab.center<br>🧪 **823** backend · **173** unit · **49** browser tests<br>🔒 Typed tool-calling, no LLM-written SQL<br>✅ Every AI change needs your yes | Python, FastAPI, Gemini, PostgreSQL, Next.js, TypeScript |
 
 ---
 
